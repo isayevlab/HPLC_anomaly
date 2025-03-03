@@ -1,0 +1,27 @@
+BATCH_SIZE: 100
+MAX_SEQ_LEN: 1000
+SKIP_FIRST_N: 40
+batch_size: 100
+lr_init: 0.0005800062677760753
+max_seq_len: 1000
+n_agg_layers: 1
+n_agg_layers_och:
+- 25
+n_feature_layers: 3
+n_feature_layers_ich:
+- 1
+- 11
+- 11
+n_feature_layers_ksize:
+- 8
+- 4
+- 6
+n_feature_layers_och:
+- 11
+- 11
+- 9
+n_feature_layers_stride:
+- 4
+- 5
+- 4
+skip_first_n: 40
