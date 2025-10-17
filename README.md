@@ -15,15 +15,18 @@ This project implements a machine learning framework for detecting air bubble co
 ## Repository Structure
 
 ```bash
-├── datamodule.py                                   # Data module for loading and preprocessing
-├── DeployedModel_epoch310-step19282.ckpt           # Trained model checkpoint
-├── ExamplePreasureTraces_100_List[List[float]].pkl # Example pressure traces
-├── hparams.yaml                                    # Model hyperparameters
-├── Inference_Example.ipynb                         # Example notebook for inference
-├── models.py                                       # Model definition
 ├── annotated_data.csv                              # Expert annotations (961 samples)
-├── hplc_pre_tracks_batch_[1-6]_of_6.parquet        # Complete pressure trace dataset
+├── hplc_pre_tracks_batch_[1-6]_of_6.parquet        # Complete pressure trace dataset (25,423 traces)
+├── ExamplePreasureTraces_100_List[List[float]].pkl # Example pressure traces
+├── DeployedModel_epoch310-step19282.ckpt           # Trained model checkpoint
+├── hparams.yaml                                    # Model hyperparameters
+├── models.py                                       # Model definition
+├── datamodule.py                                   # Data module for loading and preprocessing
+├── Inference_Example.ipynb                         # Example notebook for inference
+├── VisualizationEDA_example.ipynb                  # Exploratory data analysis
+├── VisualizationEDA_example.html                   # EDA notebook (HTML export)
 └── README.md                                       # This file
+
 ```
 
 ## Usage
